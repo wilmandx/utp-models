@@ -4,14 +4,14 @@ package co.edu.utp.app.mod.model;
  * Hello world!
  *
  */
-public class App 
+public class UtilUTP 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World WIl!" );
+        System.out.println( "Hello World Wil!" );
     }
     
     public int sumar(int x,int y){
-    	return x+y;
+    	return x+y+60;
     }
 }

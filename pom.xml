@@ -3,11 +3,30 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>co.edu.utp.app.mod</groupId>
   <artifactId>utp-models</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
+<!--   <version>0.0.1-SNAPSHOT</version> -->
   <packaging>pom</packaging>
   <name>utp-models</name>
   <description>Muestra de diferentes models</description>
   <modules>
   	<module>utp-model-storeproc</module>
   </modules>
+  
+  <distributionManagement>
+		<repository>
+	      <id>central</id>
+	      <name>dsistemaswtb-releases</name>
+	      <url>${repository.url}</url>
+	      <uniqueVersion>false</uniqueVersion>
+	    </repository>
+    
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>dsistemaswtb-snapshots</name>
+			<url>${snapshots.url}</url>
+			<uniqueVersion>false</uniqueVersion>
+		</snapshotRepository>
+		
+	</distributionManagement>
+  
 </project>
